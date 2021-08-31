@@ -32,4 +32,4 @@ This is a simple remark plugin to create and format footnotes.
 
 ## License
 
-[MIT](license) © [Adrián Zámečník](author)
+[MIT](license) © [Adrián Zámečník](https://adrianzamecnik.cz)
