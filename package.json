@@ -1,0 +1,20 @@
+{
+  "name": "remark-simple-footnotes",
+  "version": "1.0.0",
+  "description": "Simple footnotes for remark.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "remark",
+    "footnotes"
+  ],
+  "repository": "ejdrien/remark-simple-footnotes",
+  "author": "Adrián Zámečník (https://adrianzamecnik.cz)",
+  "license": "MIT",
+  "dependencies": {
+    "unist-util-remove": "^3.1.0",
+    "unist-util-visit": "^4.0.0"
+  }
+}
