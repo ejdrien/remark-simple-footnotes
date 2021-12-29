@@ -5,6 +5,10 @@ import { remove } from "unist-util-remove"
 import util from "util"
 
 export default () => tree => {
+  let current_footnote_number = 0
+
+  const next_footnote_number = () => ++current_footnote_number
+
   const footnote_reference_regex = /(?<!\s)(?<=.+?)(\[\^)([^\]])(.*?)(\])/g
   const footnote_definiton_regex = /^(\[\^)(.+?)(\]:)/g
   
@@ -124,7 +128,3 @@ export default () => tree => {
 
   tree.children.push(footnotes_section)
 }
-
-let current_footnote_number = 0
-
-const next_footnote_number = () => ++current_footnote_number

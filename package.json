@@ -1,6 +1,6 @@
 {
   "name": "remark-simple-footnotes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple footnotes for remark.",
   "type": "module",
   "main": "index.js",
